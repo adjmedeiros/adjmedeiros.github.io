@@ -333,19 +333,5 @@
     "estado": "PA",
     "telefone": "9191445321",
     "horario_funcionamento": "ATENDIMENTOS NOS TURNOS DA MANHA E A TARDE"
-  },
-  {
-    "id": 2621401,
-    "nome": "ESF TERRA PROMETIDA",
-    "tipo": "MUNICIPAL",
-    "latitude": -3.465,
-    "longitude": -49.4023,
-    "logradouro": "TRAVESSA 9 DE JULHO",
-    "numero": "S/N",
-    "bairro": "TERRA PROMETIDA",
-    "cidade": "Tucuruí",
-    "estado": "PA",
-    "telefone": "9191445321",
-    "horario_funcionamento": "ATENDIMENTOS NOS TURNOS DA MANHA E A TARDE"
   }
 ]
