@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ademildo Medeiros — Desenvolvedor Mobile</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://unpkg.com/lucide-static@latest/font/lucide.css" />
+</head>
+<body class="bg-white text-black antialiased">
+  <!-- NAV -->
+  <header class="sticky top-0 z-40 backdrop-blur bg-white/90 border-b border-neutral-200">
+    <nav class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-2 font-semibold">
+        <span class="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-black text-white">adj</span>
+        <span>Ademildo Medeiros • Mobile Dev</span>
+      </a>
+      <div class="hidden md:flex items-center gap-6 text-sm">
+        <a href="#sobre" class="hover:opacity-70">Sobre</a>
+        <a href="#skills" class="hover:opacity-70">Skills</a>
+        <a href="#projetos" class="hover:opacity-70">Projetos</a>
+        <a href="#contato" class="hover:opacity-70">Contato</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="mx-auto max-w-6xl px-4 py-16 md:py-24">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div>
+        <span class="inline-flex items-center gap-2 text-xs tracking-wide uppercase text-neutral-600">
+          <i class="lucide-smartphone"></i> Desenvolvedor Mobile
+        </span>
+        <h1 class="mt-3 text-4xl md:text-5xl font-bold leading-tight">
+          Eu construo apps móveis
+          <span class="block text-neutral-500">bonitos, rápidos e úteis.</span>
+        </h1>
+        <p class="mt-4 text-neutral-700 leading-relaxed">
+          Especialista em React Native + Expo, com foco em produtos para saúde, varejo e serviços. Transformo ideias em aplicativos prontos para produção.
+        </p>
+        <div class="mt-6 flex flex-wrap gap-3">
+          <a href="https://wa.me/5591999999999" target="_blank" class="inline-flex items-center gap-2 rounded-2xl bg-black px-4 py-2 text-white hover:opacity-90">
+            Fale comigo no WhatsApp <i class="lucide-arrow-right h-4 w-4"></i>
+          </a>
+          <a href="mailto:contato@adjmedeiros.dev" class="inline-flex items-center gap-2 rounded-2xl border border-neutral-300 px-4 py-2 hover:bg-white">
+            <i class="lucide-mail"></i> Enviar e-mail
+          </a>
+          <a href="#" class="inline-flex items-center gap-2 rounded-2xl border border-neutral-300 px-4 py-2 hover:bg-white">
+            <i class="lucide-download"></i> Baixar CV
+          </a>
+        </div>
+        <div class="mt-6 flex items-center gap-4 text-neutral-600">
+          <a href="https://github.com/adjmedeiros" target="_blank" class="inline-flex items-center gap-2 hover:opacity-70">
+            <i class="lucide-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/adjmedeiros" target="_blank" class="inline-flex items-center gap-2 hover:opacity-70">
+            <i class="lucide-linkedin"></i> LinkedIn
+          </a>
+          <span class="inline-flex items-center gap-2"><i class="lucide-map-pin"></i> Tucuruí • PA</span>
+        </div>
+      </div>
+      <div class="order-first md:order-last">
+        <div class="aspect-[4/3] w-full rounded-3xl border border-neutral-200 bg-white p-6 shadow-sm">
+          <div class="grid h-full grid-cols-2 gap-4">
+            <div class="rounded-2xl border border-neutral-200 p-4">
+              <div class="text-xs text-neutral-500">React Native</div>
+              <div class="text-lg font-semibold">5+ projetos</div>
+            </div>
+            <div class="rounded-2xl border border-neutral-200 p-4">
+              <div class="text-xs text-neutral-500">TypeScript</div>
+              <div class="text-lg font-semibold">prod ready</div>
+            </div>
+            <div class="rounded-2xl border border-neutral-200 p-4">
+              <div class="text-xs text-neutral-500">PostgreSQL</div>
+              <div class="text-lg font-semibold">ETL/SQL</div>
+            </div>
+            <div class="rounded-2xl border border-neutral-200 p-4">
+              <div class="text-xs text-neutral-500">Firebase</div>
+              <div class="text-lg font-semibold">Auth/DB</div>
+            </div>
+          </div>
+          <div class="mt-4 flex items-center justify-center gap-2 text-sm text-neutral-600">
+            <i class="lucide-code-2"></i> Disponível para novos projetos
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre" class="bg-white border-y border-neutral-200">
+    <div class="mx-auto max-w-6xl px-4 py-14">
+      <div class="grid md:grid-cols-3 gap-10 items-start">
+        <div>
+          <h2 class="text-2xl font-bold">Sobre mim</h2>
+          <p class="mt-3 text-neutral-700 leading-relaxed">
+            Sou desenvolvedor mobile com foco em React Native e experiência em apps de saúde, varejo e serviços. Gosto de transformar requisitos reais em interfaces limpas, rápidas e acessíveis.
+          </p>
+        </div>
+        <div class="md:col-span-2">
+          <ul class="grid sm:grid-cols-2 gap-4">
+            <li class="rounded-2xl border border-neutral-200 bg-neutral-50 p-4">UX simples e direto</li>
+            <li class="rounded-2xl border border-neutral-200 bg-neutral-50 p-4">Código limpo e tipado</li>
+            <li class="rounded-2xl border border-neutral-200 bg-neutral-50 p-4">Integrações com APIs e bancos</li>
+            <li class="rounded-2xl border border-neutral-200 bg-neutral-50 p-4">Dashboards e relatórios</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="mx-auto max-w-6xl px-4 py-14">
+    <h2 class="text-2xl font-bold">Skills principais</h2>
+    <div class="mt-6 grid md:grid-cols-3 gap-6">
+      <div class="rounded-2xl border border-neutral-200 bg-white p-5">
+        <div class="text-sm font-semibold text-neutral-600">Mobile</div>
+        <ul class="mt-3 space-y-2 text-neutral-700">
+          <li>React Native</li>
+          <li>Expo</li>
+          <li>TypeScript</li>
+          <li>AsyncStorage</li>
+          <li>Push Notifications</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl border border-neutral-200 bg-white p-5">
+        <div class="text-sm font-semibold text-neutral-600">Front-end</div>
+        <ul class="mt-3 space-y-2 text-neutral-700">
+          <li>React</li>
+          <li>Tailwind</li>
+          <li>Framer Motion</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl border border-neutral-200 bg-white p-5">
+        <div class="text-sm font-semibold text-neutral-600">Back-end</div>
+        <ul class="mt-3 space-y-2 text-neutral-700">
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>PostgreSQL</li>
+          <li>Firebase</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos" class="bg-white border-y border-neutral-200">
+    <div class="mx-auto max-w-6xl px-4 py-14">
+      <h2 class="text-2xl font-bold">Projetos em destaque</h2>
+      <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="rounded-2xl border border-neutral-200 bg-neutral-50 p-5 hover:bg-white">
+          <h3 class="text-lg font-semibold">+Saúde PCCU</h3>
+          <p class="mt-2 text-sm text-neutral-700">App React Native para agendar e orientar mulheres sobre o exame preventivo (PCCU).</p>
+        </div>
+        <div class="rounded-2xl border border-neutral-200 bg-neutral-50 p-5 hover:bg-white">
+          <h3 class="text-lg font-semibold">PrevenSUS</h3>
+          <p class="mt-2 text-sm text-neutral-700">Plataforma web para análise de indicadores do Previne Brasil com dashboards.</p>
+        </div>
+        <div class="rounded-2xl border border-neutral-200 bg-neutral-50 p-5 hover:bg-white">
+          <h3 class="text-lg font-semibold">Mago do Estômago</h3>
+          <p class="mt-2 text-sm text-neutral-700">App para acompanhamento perioperatório em cirurgias gástricas.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="mx-auto max-w-6xl px-4 py-14">
+    <h2 class="text-2xl font-bold mb-4">Contato</h2>
+    <p class="text-neutral-700 mb-6">Fale comigo e leve sua ideia para o próximo nível.</p>
+    <div class="space-y-3 text-neutral-700">
+      <div><i class="lucide-phone"></i> +55 (91) 9 0000-0000</div>
+      <div><i class="lucide-mail"></i> contato@adjmedeiros.dev</div>
+      <div><i class="lucide-map-pin"></i> Tucuruí — PA</div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-neutral-200">
+    <div class="mx-auto max-w-6xl px-4 py-8 text-sm text-neutral-600 flex flex-col md:flex-row items-center justify-between gap-2">
+      <div>© 2025 • Ademildo Medeiros (adjmedeiros). Todos os direitos reservados.</div>
+      <div class="flex items-center gap-4">
+        <a href="https://github.com/adjmedeiros" target="_blank" class="hover:opacity-70"><i class="lucide-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/adjmedeiros" target="_blank" class="hover:opacity-70"><i class="lucide-linkedin"></i> LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
